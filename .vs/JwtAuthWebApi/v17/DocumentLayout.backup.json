@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1CBA8895-AA7A-4438-8E67-4BE46AB2FDA5}|JwtAuthWebApi.csproj|c:\\users\\it-04\\desktop\\jwtauthwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1CBA8895-AA7A-4438-8E67-4BE46AB2FDA5}|JwtAuthWebApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CBA8895-AA7A-4438-8E67-4BE46AB2FDA5}|JwtAuthWebApi.csproj|c:\\users\\it-04\\desktop\\jwtauthwebapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CBA8895-AA7A-4438-8E67-4BE46AB2FDA5}|JwtAuthWebApi.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1CBA8895-AA7A-4438-8E67-4BE46AB2FDA5}|JwtAuthWebApi.csproj|c:\\users\\it-04\\desktop\\jwtauthwebapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CBA8895-AA7A-4438-8E67-4BE46AB2FDA5}|JwtAuthWebApi.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CBA8895-AA7A-4438-8E67-4BE46AB2FDA5}|JwtAuthWebApi.csproj|c:\\users\\it-04\\desktop\\jwtauthwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1CBA8895-AA7A-4438-8E67-4BE46AB2FDA5}|JwtAuthWebApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1CBA8895-AA7A-4438-8E67-4BE46AB2FDA5}|JwtAuthWebApi.csproj|c:\\users\\it-04\\desktop\\jwtauthwebapi\\jwtauthwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1CBA8895-AA7A-4438-8E67-4BE46AB2FDA5}|JwtAuthWebApi.csproj|solutionrelative:jwtauthwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CBA8895-AA7A-4438-8E67-4BE46AB2FDA5}|JwtAuthWebApi.csproj|c:\\users\\it-04\\desktop\\jwtauthwebapi\\jwtauthwebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1CBA8895-AA7A-4438-8E67-4BE46AB2FDA5}|JwtAuthWebApi.csproj|c:\\users\\it-04\\desktop\\jwtauthwebapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CBA8895-AA7A-4438-8E67-4BE46AB2FDA5}|JwtAuthWebApi.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CBA8895-AA7A-4438-8E67-4BE46AB2FDA5}|JwtAuthWebApi.csproj|c:\\users\\it-04\\desktop\\jwtauthwebapi\\jwtauthwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1CBA8895-AA7A-4438-8E67-4BE46AB2FDA5}|JwtAuthWebApi.csproj|solutionrelative:jwtauthwebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,33 +46,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\Data\\ApplicationDbContext.cs*",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T09:38:29.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\Controllers\\WeatherForecastController.cs*",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAB9AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-02T08:08:48.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-02T08:08:44.408Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "JwtAuthWebApi.http",
               "DocumentMoniker": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\JwtAuthWebApi.http",
               "RelativeDocumentMoniker": "JwtAuthWebApi.http",
@@ -81,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -94,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WeatherForecast.cs",
@@ -107,12 +124,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "JwtAuthWebApi",
               "DocumentMoniker": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\JwtAuthWebApi.csproj",
               "RelativeDocumentMoniker": "JwtAuthWebApi.csproj",
-              "ToolTip": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\JwtAuthWebApi.csproj",
-              "RelativeToolTip": "JwtAuthWebApi.csproj",
+              "ToolTip": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\JwtAuthWebApi.csproj*",
+              "RelativeToolTip": "JwtAuthWebApi.csproj*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-09-02T08:07:51.911Z",

@@ -34,17 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\Controllers\\WeatherForecastController.cs*",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs*",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBgAAAAhAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAB9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-02T08:08:48.892Z",
               "EditorCaption": ""
@@ -107,8 +111,8 @@
               "Title": "JwtAuthWebApi",
               "DocumentMoniker": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\JwtAuthWebApi.csproj",
               "RelativeDocumentMoniker": "JwtAuthWebApi.csproj",
-              "ToolTip": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\JwtAuthWebApi.csproj",
-              "RelativeToolTip": "JwtAuthWebApi.csproj",
+              "ToolTip": "C:\\Users\\IT-04\\Desktop\\JwtAuthWebApi\\JwtAuthWebApi.csproj*",
+              "RelativeToolTip": "JwtAuthWebApi.csproj*",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-09-02T08:07:51.911Z",

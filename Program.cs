@@ -1,6 +1,9 @@
 using JwtAuthWebApi.Data;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +24,33 @@ builder.Services
     .AddDefaultTokenProviders();
 
 //config identity
+//builder.Services.Configure<IdentityOptions>(options =>
+//{
+
+//});
+
+// Configure JWT authentication
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultScheme =JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultAuthenticateScheme=JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme=JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(options =>
+{
+    options.SaveToken=true;
+    options.RequireHttpsMetadata = false;
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = "YourIssuer",  // Replace with your issuer
+        ValidAudience = "YourAudience",  // Replace with your audience
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("YourSecretKeyHere"))  // Replace with your secret key
+    };
+});
 
 
 var app = builder.Build();
